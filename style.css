@@ -1,0 +1,112 @@
+.Vcontainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#id-1 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+iframe {
+	/* optional */
+	width: 100%;
+	height: 100%; 
+}
+
+.Vcontainer p {
+	margin: 0;
+	padding: 20px;
+	width: 100vw;
+	height: 100vh;
+	vertical-align: center;
+	text-align: center;
+	background-color: red;
+	font-size: 3.3vmax;
+	overflow: hidden;
+	
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #eee;
+}
+
+.navbar {
+	border-radius: 0;
+}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+	font-weight: normal;
+}
+
+.form-signin .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type="login"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.text-center .tname {
+	text-align: left;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+textarea {
+	padding: 5px;
+}
+
+.table td, .table th {
+	padding: .25rem;
+}
